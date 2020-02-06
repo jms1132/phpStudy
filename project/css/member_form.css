@@ -1,0 +1,94 @@
+#main_content{
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
+#info_write{
+  padding : 20px;
+}
+#typing_info{
+  margin: auto;
+}
+#member_form_section{
+  background-color: #E6E0F8;
+}
+#div_login{
+  border: 1px solid #BCA9F5;
+padding: 30px;
+width: 300px;
+}
+#welcome{
+  margin: auto;
+  margin-top: 30px;
+  background: white;
+  border: 1px solid #BCA9F5;
+  padding: 10px;
+  margin-bottom: 10px;
+  padding: 30px;
+
+}
+#join_box{
+  background: white;
+  border: 1px solid #BCA9F5;
+  margin-bottom: 30px;
+
+}
+.idSubMsg{
+  margin-top: 5px;
+  font-size: 13px;
+  color: #6E6E6E;
+}
+#str_welcome{
+  margin-bottom: 10px;
+  font-weight: bold;
+  color:#2E2E2E;
+}
+#str_welcome_chage{
+
+  font-weight: bold;
+  color:#2E2E2E;
+  text-align: center;
+}
+#str_long_welcome{
+  color: #848484;
+  margin-bottom: 50px;
+}
+#table {
+  width: 500px;
+  margin: auto;
+
+}
+#table td {
+  padding: 10px;
+}
+#idcheck_btn{
+  height:30px;
+  width: 30px;
+  padding:3px;
+  border-radius: 15px;
+  border: none;
+  color: white;
+  background: #A4A4A4;
+  font-size: 17px;
+  font-weight: bold;
+}
+.table_item{
+  text-align: right;
+  font-weight: bold;
+}
+#table_div{      padding: 30px;
+}
+
+.item {
+  font-weight: bold;
+  /* background-color: lightgray; */
+}
+#done_div {
+  margin: auto;
+  width: 50%;
+  text-align: center;
+  margin-top: 20px;
+}
+span {
+  font-size: 12px;
+}
