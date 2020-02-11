@@ -6,6 +6,7 @@
 <link rel="stylesheet" type="text/css" href="./css/common.css">
 <link rel="stylesheet" type="text/css" href="./css/message.css">
 <link rel="stylesheet" href="./css/main_slide.css">
+<link rel="stylesheet" href="./css/header.css">
 
 <script src="http://code.jquery.com/jquery-1.12.4.min.js" charset="utf-8"></script>
 <script src="./js/vendor/modernizr.custom.min.js"></script>
@@ -18,24 +19,7 @@
     <?php include "header.php";?>
 </header>
 <section>
-  <div class="slideshow">
-      <div class="slideshow_slides">
-        <a href="#"> <img src="./img/mainbnr_01.png" alt="slide1" id="bn_img"> </a>
-        <a href="#"> <img src="./img/mainbnr_02.png" alt="slide2" id="bn_img"> </a>
-        <a href="#"> <img src="./img/mainbnr_03.png" alt="slide3"> </a>
 
-      </div>
-      <div class="slideshow_nav">
-        <a href="#" class="prev">prev</a>
-        <a href="#" class="next">next</a>
-      </div>
-      <div class="indicator">
-        <!-- <a href="#" class="active">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">4</a> -->
-      </div>
-    </div>
    	<div id="message_box">
 	    <h3>
 <?php

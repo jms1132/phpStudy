@@ -70,7 +70,8 @@
     // mysqli_data_seek 함수의 순번은 0부터 시작하기 때문에 예제 1처럼 3번째 데이터를 원하는 경우 2를 입력하여야 합니다.
 
       // 가져올 레코드로 위치(포인터) 이동
-      $row = mysqli_fetch_array($result); //fetch_array는 인덱스와 키값으로 찾을 수 있다.
+      $row = mysqli_fetch_array($result);
+      //fetch_array는 인덱스와 키값으로 찾을 수 있다.
       //fetch_row는 인덱스로 찾을 수 있다.
       // 하나의 레코드 가져오기
 	  $num         = $row["num"];

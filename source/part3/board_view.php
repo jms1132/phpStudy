@@ -27,6 +27,7 @@
 	$result = mysqli_query($con, $sql);
 
 	$row = mysqli_fetch_array($result);
+
 	$id      = $row["id"];
 	$name      = $row["name"];
 	$regist_day = $row["regist_day"];
@@ -57,8 +58,9 @@
 						$file_size = filesize($file_path);
 
 						echo "▷ 첨부파일 : $file_name ($file_size Byte) &nbsp;&nbsp;&nbsp;&nbsp;
-			       		<a href='download.php?num=$num&real_name=$real_name&file_name=$file_name&file_type=$file_type'>[저장]</a><br><br>";
+			       		<a href='board_download.php?num=$num&real_name=$real_name&file_name=$file_name&file_type=$file_type'>[저장]</a><br><br>";
 			           	}
+
 				?>
 				<?=$content?>
 			</li>

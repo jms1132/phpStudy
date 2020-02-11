@@ -4,8 +4,7 @@
     <meta charset="utf-8">
     <title>정민지의 PHP 프로그래밍 입문</title>
     <link rel="stylesheet" type="text/css" href="./css/common.css">
-    <link rel="stylesheet" href="./css/main_slide.css">
-    <link rel="stylesheet" type="text/css" href="./css/member_form.css">
+    <link rel="stylesheet" type="text/css" href="./css/signup_and_modify.css">
 
 <link rel="stylesheet" href="./css/header.css">
     <script src="http://code.jquery.com/jquery-1.12.4.min.js" charset="utf-8"></script>
@@ -86,7 +85,7 @@
   </head>
   <body>
     <header>
-        <?php include "header.php";?>
+        <?php include "./header.php";?>
       </header>
       <section id="member_form_section">
         <div id="main_content">
@@ -107,7 +106,7 @@
       </div>
       </section>
       <footer>
-          <?php include "footer.php";?>
+          <?php include "./footer.php";?>
         </footer>
   </body>
 </html>

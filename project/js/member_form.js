@@ -16,6 +16,7 @@ $(document).ready(function() {
       passMsg.html("<span style='color:#FA5858'>비밀번호가 틀립니다. 다시 확인해 주세요.</span>");
     }
   });
+
   inputId.blur(function() {
     var idValue = inputId.val();
     var exp = /^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9]).{4,12}$/;

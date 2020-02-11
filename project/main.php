@@ -2,13 +2,15 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>PHP 프로그래밍 입문</title>
+    <link rel="stylesheet" href="./css/banner_slide.css">
+    <link rel="stylesheet" href="./css/header.css">
+
     <script src="./js/vendor/modernizr.custom.min.js"></script>
     <script src="./js/vendor/jquery-1.10.2.min.js"></script>
-<script src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
-    <script src="./js/main.js"></script>
-    <link rel="stylesheet" href="./css/main_slide.css">
-    <link rel="stylesheet" href="./css/header.css">
+    <script src="./js/vendor/jquery-ui-1.10.3.custom.min.js"></script>
+    <script src="./js/banner_slide.js"></script>
+
 
   </head>
   <body>

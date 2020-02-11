@@ -44,7 +44,7 @@
     }
 ?>
 <?php
-    if ($userlevel==1) {
+    if ($userlevel==1) { //update sourcemembers set level=1 where name='관리자';
         ?>
                 <li> | </li>
                 <li><a href="admin.php">관리자 모드(15장)</a></li>
